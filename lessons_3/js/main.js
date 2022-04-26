@@ -1,33 +1,24 @@
-if (2*4==8) {
-    console.log("Верно")
-} else {
-    console.log("Неверно")
+'use strict';
+
+let money = prompt("What is your monthly budget?"),
+    time = prompt("Enter a date in the format YYYY-MM-DD");
+
+let appData = {
+    budget: money,
+    timeData: time,
+    expenses: {},
+    optinalExpenses: {},
+    income : [],
+    savings: false
 };
 
-let num = 101; 
+let a1 = prompt("Enter a mandatory expense item for this month"),
+    a2 = prompt("How much will it cost?"),
+    a3 = prompt("Enter a mandatory expense item for this month"),
+    a4 = prompt("How much will it cost?");
 
-if (num<49) {
+appData.expenses.a1=a2;
+appData.expenses.a3=a4;
 
-console.log("Неверно")
-} else if (num>100) {
-    console.log("Больше 100")
-}
-
-(num==50) ? console.log('Верно!') : console.log("Неверно!");
-
-num=81;
-
-switch (num) {
-    case num <49:
-    console.log("Неверно");
-    break;
-    case num >100:
-    console.log("верно");
-    break;
-    case num >80:
-    console.log("почти верно");
-    break;
-    default:
-    console.log("Что то пошло не так");
-    break;
-}
+alert("answer to the first question " + a1, "answer to the two question " + a2),
+alert("Budget in one day " + money/30);
