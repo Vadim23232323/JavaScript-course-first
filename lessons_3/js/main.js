@@ -20,5 +20,5 @@ let a1 = prompt("Enter a mandatory expense item for this month"),
 appData.expenses.a1=a2;
 appData.expenses.a3=a4;
 
-alert("answer to the first question " + a1, "answer to the two question " + a2),
+
 alert("Budget in one day " + money/30);
