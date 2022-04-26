@@ -1,0 +1,30 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.work {
+    height: 100vh;
+    background-color:rgb(206, 70, 224);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+
+}
+
+.content>i {
+    color:rgb(210, 108, 50);
+    font-size: 200px;
+    padding: 60px 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
